@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed : "
+        android:textSize="20sp"
+        android:layout_marginLeft="18dp"/>
+    <Spinner
+    android:id="@+id/spinner_speed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:title="Speed of Falling"
+    style="@style/MyDarkToolbarStyle"
+    android:spinnerMode="dropdown"
+    android:dropDownWidth="300dp"
+        android:layout_marginLeft="10dp"
+    />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Density : "
+        android:textSize="20sp"
+        android:layout_marginLeft="18dp"/>
+    <Spinner
+        android:id="@+id/spinner_density"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Densityof Falling"
+        style="@style/MyDarkToolbarStyle"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="300dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Simulate !!!!"
+        android:id="@+id/simulate"
+        android:background="@drawable/requestbutton"/>
+
+
+</LinearLayout>
